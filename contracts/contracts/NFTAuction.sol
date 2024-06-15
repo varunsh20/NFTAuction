@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC1155/extensions/ERC1155URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract Mintly is ERC1155URIStorage, ERC1155Holder {
+contract NFTAuction is ERC1155URIStorage, ERC1155Holder {
     // Defining the contract owner
     address payable owner;
 
